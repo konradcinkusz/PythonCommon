@@ -44,3 +44,20 @@ try :
 
 except Exception as ex :
     print('differen exception', ex)
+
+#%% Dictionaries sorting
+#does not work because different key type
+for sortedKey in list(dictionary.keys()).sort() : #sort is nonetype
+    print(str(dictionary[sortedKey]))
+
+#%% Sorting dictionary
+dictionary = { 'a' : 1, 'b' : 2, 'c' : 3, 'd' : 4, 'e' : 5, 'g' : 6, 'l' : 7}
+print(dictionary)
+print(sorted(dictionary))
+keys = list(dictionary.keys())
+keys.sort()
+for sortedKey in keys :
+    print(dictionary[sortedKey]) 
+dictionary = { 'a' : 1, 'b' : 2, 'c' : 3, 'd' : 4, 'e' : 5, 'g' : 6, 'l' : 7}
+for sortedKey in sorted(list(dictionary.keys())) :
+    print(dictionary[sortedKey]) 
