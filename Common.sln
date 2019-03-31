@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Common", "Common\Common.pyproj", "{CD5E7CF1-3AF3-40B0-9E02-10F524E7CC41}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MatplotlibExamples", "MatplotlibExamples\MatplotlibExamples.pyproj", "{00837680-C717-4500-88C1-7CB0FF704664}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CD5E7CF1-3AF3-40B0-9E02-10F524E7CC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD5E7CF1-3AF3-40B0-9E02-10F524E7CC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00837680-C717-4500-88C1-7CB0FF704664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00837680-C717-4500-88C1-7CB0FF704664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
