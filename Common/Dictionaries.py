@@ -61,3 +61,8 @@ for sortedKey in keys :
 dictionary = { 'a' : 1, 'b' : 2, 'c' : 3, 'd' : 4, 'e' : 5, 'g' : 6, 'l' : 7}
 for sortedKey in sorted(list(dictionary.keys())) :
     print(dictionary[sortedKey]) 
+    
+
+#%% https://stackoverflow.com/a/613218/4510954
+import collections
+sorted_dict = collections.OrderedDict(dictionary)
