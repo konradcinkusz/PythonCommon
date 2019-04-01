@@ -27,6 +27,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Dictionaries.py" />
+    <Compile Include="ForElseLoop.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ForLoop.py">
       <SubType>Code</SubType>
     </Compile>
