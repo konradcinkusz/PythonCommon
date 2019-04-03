@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cd5e7cf1-3af3-40b0-9e02-10f524e7cc41</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>Functions\VarArguments.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,19 +22,37 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="2DRandomArray.py" />
     <Compile Include="ComparisonEqualityTrue.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Dictionaries.py" />
+    <Compile Include="FileOperations\PickleExample.py" />
     <Compile Include="ForElseLoop.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ForLoop.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Functions\LocalToGlobalVariable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions\VarArguments.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListIndexOfItem.py" />
+    <Compile Include="MaskingSameArraysValueWithOnesAndZeros.py" />
+    <Compile Include="MeasureEfficient.py" />
+    <Compile Include="NumpyArrayWithoutSpecificValue.py" />
+    <Compile Include="SetVsListCompareObj.py" />
+    <Compile Include="TraversingAListOfListAndMultiplyingEachElements.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FileOperations\" />
+    <Folder Include="Functions\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
