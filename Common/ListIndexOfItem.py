@@ -10,3 +10,6 @@ def indexer(word, words) :
     #return array of indexes of word in words list if exist, else return empty array
     #return [i for i,e in enumerate(words) if sentence in e]
     return [i for i,e in enumerate(words) if e == sentence]
+
+
+#%%
